@@ -16,9 +16,17 @@ This credential helps organizations identify and develop talent with critical kn
 * [Cloud Architecture Design](#cloud-architecture-design)
   * Service Continuity
   * AWS Organizations
+  * Total Cost of Ownership
+  * Cost Allocation Tags
+  * AWS Trusted Advisor
 
 * [AWS Core Services](#aws-core-services)
-  * 
+  * Simple Storage Service
+  * Amazon Glacier
+  * Virtual Private Cloud
+  * Elastic Compute Cloud
+  * Elastic Block Storage
+  * Costing Aspects
 
 * [Security and Monitoring](#security-and-monitoring)
   * 
@@ -99,9 +107,36 @@ Cloud VS On-premise infra
 
 TCO calculators allow you to estimate the cost savings when using AWS and provide reports that can be used in executive presentations.
 
+### Cost Allocation Tags
 
+* Tags are used to organize resources in AWS
+* Can be used to track resources at a detailed level
+
+### AWS Trusted Advisor
+
+Recommendations to user:
+
+* Cost optimization
+* Performance
+* Security
+* Fault Tolerance
+* Service Limits
 
 ## AWS Core Services
+
+### Simple Storage Service (S3)
+
+### Amazon Glacier
+
+### Virtual Private Cloud (VPC)
+
+### Elastic Compute Cloud (EC2)
+
+### Elastic Block Storage (EBS)
+
+### Costing Aspects
+
+
 
 ## Security and Monitoring
 
