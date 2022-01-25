@@ -8,7 +8,7 @@ This credential helps organizations identify and develop talent with critical kn
 ## Contents
 
 * [Cloud Concepts](#cloud-concepts)
-  *  Availability Zones
+  *  [Availability Zones](#availability-zones)
 
 * [Cloud Architecture Design](#cloud-architecture-design)
   *
@@ -24,3 +24,17 @@ This credential helps organizations identify and develop talent with critical kn
 
 * [Practice Questions](#practice-questions)
 
+
+## Cloud Concepts
+
+### Availability Zones
+
+## Cloud Architecture Design
+
+## AWS Core Services
+
+## Security and Monitoring
+
+## Additional Services
+
+## Practice Questions
