@@ -149,7 +149,7 @@ Object is not encrypted in server by default.
 
 ### Amazon Glacier
 
-<img src=https://seeklogo.com/images/A/aws-glacier-logo-2F1F85B2C4-seeklogo.com.png width=100/>
+<img src=https://seeklogo.com/images/A/aws-glacier-logo-2F1F85B2C4-seeklogo.com.png width=70/>
 
 
 ### Virtual Private Cloud (VPC)
