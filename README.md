@@ -11,9 +11,11 @@ This credential helps organizations identify and develop talent with critical kn
   *  Amazon Web Services
   *  AWS Free Account
   *  Regions and Availability Zones
+  *  AWS Support Plans
 
 * [Cloud Architecture Design](#cloud-architecture-design)
-  *
+  * Service Continuity
+  * AWS Organizations
 
 * [AWS Core Services](#aws-core-services)
   * 
@@ -69,8 +71,21 @@ APN: partner network program
 
 ### Service Continuity
 
-* Fault tolerance
-* High availability
+* Fault tolerance - if a fault occurs at the infra level, you still need to ensure services can be made available
+* High availability - if infra goes down, you need to ensure the right measures are in place to ensure the application is still available
+
+1. Make use of availability zones, deploy EC2 instances across availability zones
+2. For higher availability and for **disaster recovery**, deploy secondary solutions to multiple regions
+3. Make use if Elastic Load Balancer for distributing traffic to your underlying EC2 instances
+
+Important design concepts:
+
+* Always decouple components of your application
+* Don't have a tight intregration between application components
+* Always design with failure in mind
+* Make use of features available in AWS
+
+### AWS Organizations
 
 ## AWS Core Services
 
