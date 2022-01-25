@@ -135,7 +135,7 @@ Recommendations to user:
 Use Case:
 * Allow users to upload photos
 
-S3 --> **Bucket** --> **Object**
+S3 (global) --> **Bucket** (specific region) --> **Object**
 
 Object class:
 1. Stanrdard - default class, objects in the bucket are accessed frequently
@@ -143,8 +143,14 @@ Object class:
 3. Infrequently Access (STANDARD_IA/ONEZONE_IA)
 4. GLACIER and DEEP_ARCHIVE - for data archival, storage at much lower costs
 
+Object is not encrypted in server by default.
+
+**Static Website Hosting**
 
 ### Amazon Glacier
+
+<img src=https://datadrivenai.files.wordpress.com/2019/11/using-aws-for-backup-and-restore-backup-in-the-cloud-backup-to-the-cloud-and-recovery-options-41-638.jpg?w=638 width=100/>
+
 
 ### Virtual Private Cloud (VPC)
 
