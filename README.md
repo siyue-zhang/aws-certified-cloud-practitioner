@@ -8,7 +8,7 @@ This credential helps organizations identify and develop talent with critical kn
 ## Contents
 
 * [Cloud Concepts](#cloud-concepts)
-  * 
+  *  Availability Zones
 
 * [Cloud Architecture Design](#cloud-architecture-design)
   *
