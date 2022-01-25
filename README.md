@@ -8,7 +8,9 @@ This credential helps organizations identify and develop talent with critical kn
 ## Contents
 
 * [Cloud Concepts](#cloud-concepts)
-  *  [Availability Zones](#availability-zones)
+  *  Amazon Web Services
+  *  AWS Free Account
+  *  Regions and Availability Zones
 
 * [Cloud Architecture Design](#cloud-architecture-design)
   *
@@ -27,9 +29,48 @@ This credential helps organizations identify and develop talent with critical kn
 
 ## Cloud Concepts
 
-### Availability Zones
+### Amazon Web Services
+
+* Elastic compute cloud
+* Simple storage service
+* Relational database service
+* Virtual private cloud (own isolated network)
+
+### AWS Free Account
+
+Free tier details
+
+* Always free
+* 12 months free
+* Trails
+
+EC2: type = **t2.micro** AND usage of hours per month < 750
+
+### Regions and Availability Zones
+
+Which regions to host your resources:
+
+* Close proximity to users
+* Data requirement for a specific region
+
+A region consists of multiple availability zones.
+
+An availability zone is a collection of multiple physical data centers. Data is replicated across multiple data centers to ensure availability.
+
+### AWS Support Plans
+
+1. Developer 
+2. Business
+3. Enterprise (15K/month, technical account manager)
+
+APN: partner network program
 
 ## Cloud Architecture Design
+
+### Service Continuity
+
+* Fault tolerance
+* High availability
 
 ## AWS Core Services
 
