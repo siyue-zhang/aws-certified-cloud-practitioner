@@ -126,6 +126,24 @@ Recommendations to user:
 
 ### Simple Storage Service (S3)
 
+<img src=https://miro.medium.com/max/333/1*1A1CQ8a-vKphpDu97_U6Kw.png width=100/>
+
+* Object level storage
+* Store and retrieve any amount of data
+* Highly scalable and reliable
+
+Use Case:
+* Allow users to upload photos
+
+S3 --> **Bucket** --> **Object**
+
+Object class:
+1. Stanrdard - default class, objects in the bucket are accessed frequently
+2. Reduced Redundancy - non-critical data, if you want to lower cost for storage
+3. Infrequently Access (STANDARD_IA/ONEZONE_IA)
+4. GLACIER and DEEP_ARCHIVE - for data archival, storage at much lower costs
+
+
 ### Amazon Glacier
 
 ### Virtual Private Cloud (VPC)
