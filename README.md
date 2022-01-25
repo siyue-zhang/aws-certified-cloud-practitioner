@@ -87,6 +87,20 @@ Important design concepts:
 
 ### AWS Organizations
 
+* Account management service
+  * For company with multiple AWS accounts for different departments
+* Get consolidated bills
+* Volume pricing discounts
+* Service control policies at the organization level
+
+### Total Cost of Ownership (TCO) Calculators
+
+Cloud VS On-premise infra
+
+TCO calculators allow you to estimate the cost savings when using AWS and provide reports that can be used in executive presentations.
+
+
+
 ## AWS Core Services
 
 ## Security and Monitoring
