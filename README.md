@@ -44,7 +44,7 @@ Free tier details
 
 * Always free
 * 12 months free
-* Trails
+* Trials
 
 EC2: type = **t2.micro** AND usage of hours per month < 750
 
