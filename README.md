@@ -151,6 +151,17 @@ Object is not encrypted in server by default.
 
 <img src=https://seeklogo.com/images/A/aws-glacier-logo-2F1F85B2C4-seeklogo.com.png width=60/>
 
+* Used for cold or archive storage, over month or year
+* Much cheaper storage option
+
+1. In AWS Console, you create a **vault** to hold the objects.
+2. To upload an object, you need to use the AWS CLI or AWS SDK.
+3. Or use Lifecycle management feature in S3.
+4. To retrieve an object you have to submit a job request.
+5. With the standard retrieval, it could take around **3-5 hours to download an object**.
+6. Urgent request: expedited retrieval at a higher cost to get object within a matter of minutes
+
+
 
 ### Virtual Private Cloud (VPC)
 
