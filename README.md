@@ -161,9 +161,25 @@ Object is not encrypted in server by default.
 5. With the standard retrieval, it could take around **3-5 hours to download an object**.
 6. Urgent request: expedited retrieval at a higher cost to get object within a matter of minutes
 
-
-
 ### Virtual Private Cloud (VPC)
+
+<img src=https://nicovmc.files.wordpress.com/2019/06/image-1.png width=60/>
+
+* Isolated Virtual Network dedicated to your AWS account
+* Isolated from other Virtual Networks
+* You can then launch resources such as EC2
+
+1. VPC will be allocated a CIDR block (e.g. 10.0.0.0/16)
+2. You can have multiple VPCs defined in AWS
+3. When you create an AWS account, you get default VPC created per region
+4. In VPC, you can then define subnets
+5. Subnet will be assigned CIDR block which is a subset of the VPC CIDR block
+
+<p align=center>
+<img src=https://docs.aws.amazon.com/vpc/latest/userguide/images/default-vpc-diagram.png width=500/>
+<p/>
+ 
+> Classless Inter-Domain Routing (CIDR) is a method for allocating IP addresses and for IP routing.
 
 ### Elastic Compute Cloud (EC2)
 
