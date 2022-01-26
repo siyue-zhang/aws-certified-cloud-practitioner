@@ -183,7 +183,42 @@ Object is not encrypted in server by default.
 
 ### Elastic Compute Cloud (EC2)
 
+<img src=https://camel.apache.org/camel-kamelets/0.5.x/_images/kamelets/aws-ec2-sink.svg width=60/>
+
+* Ability to create a virtual server on the cloud
+* On-demand option
+* Cloudwatch service can help monitor instances
+* Different instances types based on the type of workload
+
+To define:
+* Machine image (Windows, Linux)
+* Instance type (CPU, memory, etc.)
+* VPC
+* Security group (like firewall, control the flow of traffic)
+* Volume (storage)
+* Tags (metadata)
+
+On-demand pricing
+* Most flexible option
+* Not the cheapest option
+
+Spot pricing
+* You can run workloads on EC2 instances and also have up to 90% savings on costs
+* The instances are available based on spare capacity available in AWS
+* If AWS runs out of capacity the compute capacity will be taken away
+* Good to choose Spot Instances if your workloads can be interrupted
+
+Reserved pricing
+* You can pay an upfront price and reserve an instance type
+* Save up to 75%
+* Standard RI (reserved instance): fixed type of workload
+* Convertible RI: allow to change the attributes of RI to greater values only
+* Scheduled RI: launch instances during specific time windows
+
 ### Elastic Block Storage (EBS)
+
+<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/AWS_Simple_Icons_Storage_Amazon_EBS.svg/1200px-AWS_Simple_Icons_Storage_Amazon_EBS.svg.png width=60/>
+
 
 ### Costing Aspects
 
