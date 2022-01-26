@@ -219,6 +219,20 @@ Reserved pricing
 
 <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/AWS_Simple_Icons_Storage_Amazon_EBS.svg/1200px-AWS_Simple_Icons_Storage_Amazon_EBS.svg.png width=60/>
 
+* Block storage for EC2 Instances - Create **Volume**
+* You can have multiple volumes for an instance
+* Root volume is assigned when EC2 instance is created
+  * **General purpose SSD** - for typical workloads such as Web servers
+  * **Provisioned IOPS** - for more resource intensive workloads such as databases (higher input and output operations)
+  * **Throughput optimized HDD** - for more throughput on the volume such as Big Data applications
+  * **Cold HDD** - for archive storage
+
+After creating a volume in the same availability zone, you need to go to the server manager of OS to bring the new disk online.
+
+<p align=center>
+<img src=./volume.jpg width=700/>
+<p/>
+ 
 
 ### Costing Aspects
 
