@@ -227,15 +227,17 @@ Reserved pricing
   * **Throughput optimized HDD** - for more throughput on the volume such as Big Data applications
   * **Cold HDD** - for archive storage
 
-After creating a volume in the same availability zone, you need to go to the server manager of OS to bring the new disk online.
+After creating a volume in the same availability zone, you need to go to the server manager of OS to bring the new disk online. Then you can create a volume in the new disk.
 
 <p align=center>
 <img src=./volume.jpg width=700/>
 <p/>
  
-
 ### Costing Aspects
 
+* Pricing Calculator - indicative pricing on hosting resources in AWS
+* Billing Section - see the costs to date and billing details
+* Cost Explorer - allow you to analyse spend, but you need to enable this in advance
 
 
 ## Security and Monitoring
