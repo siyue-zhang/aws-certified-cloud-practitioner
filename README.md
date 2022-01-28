@@ -37,8 +37,7 @@ This credential helps organizations identify and develop talent with critical kn
   * Elastic Beanstalk
   * Simple Queue Service
   * Simple Notification Service
-
-### Cloudformation
+  * Cloudformation
 
 * [Security and Monitoring](#security-and-monitoring)
   * 
