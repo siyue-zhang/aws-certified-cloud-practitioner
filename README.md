@@ -33,6 +33,12 @@ This credential helps organizations identify and develop talent with critical kn
   * Cloudfront
   * Relational Database Dervice
   * DynamoDB
+  * Lambda
+  * Elastic Beanstalk
+  * Simple Queue Service
+  * Simple Notification Service
+
+### Cloudformation
 
 * [Security and Monitoring](#security-and-monitoring)
   * 
@@ -323,6 +329,39 @@ Features:
 * Enable automated backups
 * Can create snapshots of database
 * Enable high availability of database by using Multi-AZ feature (secondary database in another availbility zone, auto sync)
+
+RDS will be deployed in an EC2 instance, but EC2 is managed by AWS.
+
+### DynamoDB
+
+<img src=https://upload.wikimedia.org/wikipedia/commons/f/fd/DynamoDB.png width=60/>
+
+* Fully managed NoSQL database
+* In DynamoDB, you directly start working with tables
+* A table is a collection of items, each item is a collection of attributes
+* JSON data format
+* Simple Primary Key - Partition Key
+* Composite Key - Partition Key and Sort Key, if same partition
+
+* Charged by read and write throughput
+* Represented as Capacity Units, 1 RCU - one strongly consistent read request, for an item up to 4KB
+* Write Capacity Units, 1KB
+
+When not to use DynamoDB:
+* Complex queries on the data
+* Table joins
+
+### Lambda
+
+### Elastic Beanstalk
+
+### Simple Queue Service
+
+### Simple Notification Service
+
+### Cloudformation
+
+
 
 ## Security and Monitoring
 
