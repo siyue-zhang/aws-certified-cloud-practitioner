@@ -354,6 +354,9 @@ When not to use DynamoDB:
 
 ### Lambda
 
+* Serverless compute service
+* Support a host of programming languages such as Node.js, Python, Ruby, Java, Go and .Net
+
 ### Elastic Beanstalk
 
 ### Simple Queue Service
