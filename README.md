@@ -254,11 +254,33 @@ Scheme:
 
 ### Route53
 
-<img src=https://www.testpreptraining.com/blog/wp-content/uploads/2020/03/What-is-Amazon-Route-53_-1.png width=150/>
+<img src=https://www.testpreptraining.com/blog/wp-content/uploads/2020/03/What-is-Amazon-Route-53_-1.png width=400/>
 
 * Register domain names
 * Route traffic to resources hosted in AWS
 * Check the health of your resources
+
+1. Create a hosted zone
+2. Register the Nameservers in the domain registrar
+3. Create a resource record in the hosted zone
+
+Routing Policies
+
+* Simple routing policy - for a single resource
+* Failover routing policy - for active-passive failover
+* Geolocation routing policy - route traffic based on the location of users
+* Weighted routing policy - route traffic to different resources based on a weightage
+* Latency routing policy - route traffic to the region that provides the lowest latency
+
+### Autoscaling
+
+<img src=https://p2zk82o7hr3yb6ge7gzxx4ki-wpengine.netdna-ssl.com/wp-content/uploads/AWS-ASGs-2.png width=60/>
+
+* This service allows to scale EC2 instances based on demand
+* You can create Autoscaling Groups
+* You can create conditions
+
+
 
 ## Security and Monitoring
 
