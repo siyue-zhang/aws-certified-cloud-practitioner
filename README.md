@@ -133,6 +133,8 @@ Recommendations to user:
 * Fault Tolerance
 * Service Limits
 
+:point_up_2: [back](#contents)
+
 ## AWS Core Services
 
 ### Simple Storage Service (S3)
@@ -361,9 +363,18 @@ When not to use DynamoDB:
 ### Cloudformation
 
 
+:point_up_2: [back](#contents)
 
 ## Security and Monitoring
 
+:point_up_2: [back](#contents)
+
 ## Additional Services
 
+:point_up_2: [back](#contents)
+
 ## Practice Questions
+
+:point_up_2: [back](#contents)
+
+
