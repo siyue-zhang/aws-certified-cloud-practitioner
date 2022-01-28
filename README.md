@@ -239,6 +239,26 @@ After creating a volume in the same availability zone, you need to go to the ser
 * Billing Section - see the costs to date and billing details
 * Cost Explorer - allow you to analyse spend, but you need to enable this in advance
 
+### Elastic Load Balancer
+
+<img src=https://coralogix.com/wp-content/uploads/2019/02/Load-Balancer@2x.png width=60/>
+
+* Distribute requests to the underlying EC2 instances or lambda
+* Managed service
+
+Scheme:
+* Internet facing load balancer
+* Internal load balancer
+
+> Key pair is also a region specific resource. Tools: PuTTY, PuTTYgen, WinSCP to login linux server in Windows. Load .pem file into PuTTYgen. WinSCP is used to change file content in the server.
+
+### Route53
+
+<img src=https://www.bluematador.com/hs-fs/hubfs/www/Icons/bluematador-aws-route53-125w.png?width=250&name=bluematador-aws-route53-125w.png width=60/>
+
+* Register domain names
+* Route traffic to resources hosted in AWS
+* Check the health of your resources
 
 ## Security and Monitoring
 
