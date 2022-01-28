@@ -274,13 +274,34 @@ Routing Policies
 
 ### Autoscaling
 
-<img src=https://p2zk82o7hr3yb6ge7gzxx4ki-wpengine.netdna-ssl.com/wp-content/uploads/AWS-ASGs-2.png width=60/>
+<img src=https://p2zk82o7hr3yb6ge7gzxx4ki-wpengine.netdna-ssl.com/wp-content/uploads/AWS-ASGs-2.png width=100/>
 
 * This service allows to scale EC2 instances based on demand
 * You can create Autoscaling Groups
 * You can create conditions
 
+1. Define a launch configuration
+2. Define the Autoscaling Group
+3. For Scaling Group, you can perform a **manual scaling**
+4. You can also perform a **scheduled scaling**
+5. You can also scale based on **metrics**
 
+CloudWatch creates alarm -> Autoscale based on alarm
+
+### Cloudfront
+
+<img src=https://cdn.worldvectorlogo.com/logos/aws-cloudfront.svg
+ width=60/>
+ 
+* Used for effective distribution of content to users across the world
+* Distribute content with the help of edge locations
+
+Process:
+1. User makes request
+2. Request routed to the nearest edge location
+3. If the web content is in the cache of the edge location, it's sent to the user
+4. If not, edge server makes a request to the origin
+5. Once the data is received, is sent to user and cached for further use
 
 ## Security and Monitoring
 
