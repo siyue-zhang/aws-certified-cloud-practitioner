@@ -254,7 +254,7 @@ Scheme:
 
 ### Route53
 
-<img src=https://www.bluematador.com/hs-fs/hubfs/www/Icons/bluematador-aws-route53-125w.png?width=250&name=bluematador-aws-route53-125w.png width=60/>
+<img src=https://www.testpreptraining.com/blog/wp-content/uploads/2020/03/What-is-Amazon-Route-53_-1.png width=150/>
 
 * Register domain names
 * Route traffic to resources hosted in AWS
