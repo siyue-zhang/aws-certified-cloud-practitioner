@@ -27,6 +27,12 @@ This credential helps organizations identify and develop talent with critical kn
   * Elastic Compute Cloud
   * Elastic Block Storage
   * Costing Aspects
+  * Elastic Load Balancer
+  * Route53
+  * Autoscaling
+  * Cloudfront
+  * Relational Database Dervice
+  * DynamoDB
 
 * [Security and Monitoring](#security-and-monitoring)
   * 
@@ -302,6 +308,21 @@ Process:
 3. If the web content is in the cache of the edge location, it's sent to the user
 4. If not, edge server makes a request to the origin
 5. Once the data is received, is sent to user and cached for further use
+
+### Relational Database Service
+
+<img src=https://uploads-ssl.webflow.com/5eb586cf8a64e8125e18ebe7/5ec041c01799656fb494c37e_AWS_Simple_Icons_Database_AmazonRDS.svg_-20160325070440.png width=60/>
+
+* Setup a relational database
+* Support for MySQL, Oracle, MariaDB, PostgreSQL, MS SQL Server
+* A lot of admin jobs are managed by AWS
+
+Features:
+* Scale the underlying instance hosting the database instance at any ptime
+* Monitor via CloudWatch
+* Enable automated backups
+* Can create snapshots of database
+* Enable high availability of database by using Multi-AZ feature (secondary database in another availbility zone, auto sync)
 
 ## Security and Monitoring
 
