@@ -40,7 +40,12 @@ This credential helps organizations identify and develop talent with critical kn
   * Cloudformation
 
 * [Security and Monitoring](#security-and-monitoring)
-  * 
+  * Shared Responsibility Model
+  * Identity and Access Management
+  * Cloudwatch
+  * Cloudtrail
+  * VPC and EC2 Security
+  * Other Security Aspects
 
 * [Additional Services](#additional-services)
   *
@@ -426,6 +431,19 @@ Template --> Cloudformation --> Stack
 :point_up_2: [back](#contents)
 
 ## Security and Monitoring
+
+### Shared Responsibility Model
+
+### Identity and Access Management
+
+### Cloudwatch
+
+### Cloudtrail
+
+### VPC and EC2 Security
+
+### Other Security Aspects
+
 
 :point_up_2: [back](#contents)
 
