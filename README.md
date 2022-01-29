@@ -379,7 +379,6 @@ When not to use DynamoDB:
 
 * Applications (producer) send messages to Queue
 * Consumer receives messages
-
 * Standard queues
 * FIFO queues - used to preserve the order of messages
 * Visibility timeout: the time message is invisible for other consumers
