@@ -354,17 +354,74 @@ When not to use DynamoDB:
 
 ### Lambda
 
+<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png width=60/>
+
 * Serverless compute service
 * Support a host of programming languages such as Node.js, Python, Ruby, Java, Go and .Net
+* Avoid deploying and maintaining EC2
+* Only get charged for the time the code is run
+* You don't have access to the underlying infrasturcture
+* Maximum memory is 3 GB
+* Time out for lambda funtion - Maximum 15 minutes
 
 ### Elastic Beanstalk
 
+* Good when you want developers to have environments up and running quickly
+* Support a variety of programming languages
+* Support application servers such as Tomcat and Internet information sevices
+
 ### Simple Queue Service
 
-### Simple Notification Service
+* Applications (producer) send messages to Queue
+* Consumer receives messages
+
+* Standard queues
+* FIFO queues - used to preserve the order of messages
+* Visibility timeout: the time message is invisible for other consumers
+
+### Simple Notification Service (SNS)
+
+* Different endpoints can subscribe to the Simple Notification service
+* Consumers can receive messages via different protocols
+* Define **Topic**, **subscribers** receive message from Topic via different protocol
 
 ### Cloudformation
 
+* Allow to spin up infra in AWS via templates
+* **Template** desribes all details of resources to be created
+
+Template --> Cloudformation --> Stack
+
+* Template in JSON or YAML format
+
+### Amazon Redshift
+
+* Data warehousing service
+
+### Amazon Kinesis
+
+* Used to collect, process and analyse real time data
+  * Kinesis Data streams
+  * Kinesis Video streams
+  * Kinesis Data firehose - capture, transform and load stream of data to AWS data stores
+  * Kinesis Data Analytics - process data streams in real time with SQL or Java
+
+### Amazon Aurora
+
+* A database engine with AWS RDS
+* Compatible with MySQL and PostgreSQL
+* Delivers **higher throughput** than the traditional MySQL and PostgreSQL database engines
+
+### Amazon ElastiCache
+
+* In-Memory data store
+* Fully managed Redis and Memcached service
+* Normally sued for gaming type applications, IoT apps
+
+### Amazon EMR
+
+* Used to run Big Data frameworks such as Apache Hadoop and Apache Spark
+* Used to process and analyse large amounts of data
 
 :point_up_2: [back](#contents)
 
@@ -373,6 +430,7 @@ When not to use DynamoDB:
 :point_up_2: [back](#contents)
 
 ## Additional Services
+
 
 :point_up_2: [back](#contents)
 
