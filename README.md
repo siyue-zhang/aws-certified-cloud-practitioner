@@ -433,7 +433,42 @@ Template --> Cloudformation --> Stack
 
 ### Shared Responsibility Model
 
-### Identity and Access Management
+AWS responsible for:
+* underlying physical infra
+* decommissioning of old hardware
+* patching of firmware
+* data center security
+
+Customer responsible for:
+* Patching of EC2 instances
+* Encryption of data at rest/in transit
+* Looking after the costing aspect
+
+### Identity and Access Management (IAM)
+
+* Control access to services in AWS
+* Use in-built policies or create new one
+* Identities
+  * AWS root user
+  * IAM User - represent a person or user
+  * IAM Group
+  * IAM Role -  similar to IAM user, but does not associate itself with any credentials
+* Policies
+  * Used to control permissions
+  * Can be attached to users, groups or roles
+  * Can be assigned to resources as well
+
+Good practice:
+* Don't use root account for day to day activities
+* Enable multi-factor authentication
+* Ensure users are granted only the required priviledges
+* Password policies
+
+Access type:
+* Programmatic access
+* AWS Management Console access
+
+> Last but not least, Authentication in AWS is done via (IAM users, groups and roles) whereas Authorization is done by Policies.
 
 ### Cloudwatch
 
