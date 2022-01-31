@@ -468,7 +468,7 @@ Access type:
 * Programmatic access
 * AWS Management Console access
 
-> Last but not least, Authentication in AWS is done via (IAM users, groups and roles) whereas Authorization is done by Policies.
+> Authentication in AWS is done via (IAM users, groups and roles) whereas Authorization is done by Policies.
 
 ### Cloudwatch
 
