@@ -470,9 +470,15 @@ Access type:
 
 > Authentication in AWS is done via (IAM users, groups and roles) whereas Authorization is done by Policies.
 
-### Cloudwatch
+### CloudWatch
 
-### Cloudtrail
+* Monitoring service
+* Get metrics for various services (custom metrics)
+* Create alarms (billing alarms)
+* Used to store logs (install agents on EC2 Instanes to send logs)
+* **Cloudwatch Events** to trigger a Lambda function to start the EC2 Instance 
+
+### CloudTrail
 
 ### VPC and EC2 Security
 
