@@ -480,12 +480,32 @@ Access type:
 
 ### CloudTrail
 
-
+* Service used from a governance and compliance perspective
+* All actions taken in AWS account are recorded by Cloudtrail
+* Events get retained for 90 days, longer store needs to be set up
+* CloudTrail sends events to an S3 bucket
 
 ### VPC and EC2 Security
 
+Network Access Control Lists
+* Used to protect traffic into subnets hosted in a VPC (Policy Group controls traffic into EC2 instances)
+* NACL decides what traffic can flow out and flow in subnet
+* Each rule decides which protocol, port range and source
+
 ### Other Security Aspects
 
+**Web Application Firewall**
+* Attacks from the Internet
+* Cross site scripting
+* SQL Code injection
+
+**AWS Shield**
+* Can be used to protect against DDoS attacks
+* AWS Shield standard is given free
+
+**AWS Artifact**
+* Use this service to download AWS Security and compliance documents
+* AWS ISO certidications or Service Organization Control reports
 
 :point_up_2: [back](#contents)
 
