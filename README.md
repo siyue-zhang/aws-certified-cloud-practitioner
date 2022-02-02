@@ -480,6 +480,8 @@ Access type:
 
 ### CloudTrail
 
+
+
 ### VPC and EC2 Security
 
 ### Other Security Aspects
