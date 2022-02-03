@@ -48,7 +48,8 @@ This credential helps organizations identify and develop talent with critical kn
   * Other Security Aspects
 
 * [Additional Services](#additional-services)
-  *
+  * AWS OpsWorks
+  * 
 
 * [Practice Questions](#practice-questions)
 
@@ -401,6 +402,7 @@ Template --> Cloudformation --> Stack
 ### Amazon Redshift
 
 * Data warehousing service
+* Data by column, insert row very slow
 
 ### Amazon Kinesis
 
@@ -510,6 +512,15 @@ Network Access Control Lists
 :point_up_2: [back](#contents)
 
 ## Additional Services
+
+### AWS OpsWorks
+
+* Configuration Management Service
+* Allow to enforce the desired state of your infra
+* Allow to integrate existing tools such as Chef and Puppet
+
+Chef: automate **stack** configuration for production, development and etc. A stack can include OS, Web Server, SQL Server...
+
 
 
 :point_up_2: [back](#contents)
