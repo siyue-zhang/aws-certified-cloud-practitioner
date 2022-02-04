@@ -530,7 +530,14 @@ Chef: automate **stack** configuration for production, development and etc. A st
 5. Stop spending money running and maintaining data centers
 6. Go global in minutes
 
-### 
+### EBS Snapshots
+
+* Can use EBS Snapshots to take a backup of the data on Amazon EBS Volumes
+* Point-in-time snapshots are taken and stored in S3
+* Can recreate an EBS Volume based on the snapshot
+* Snapshots that are created out of encrypted volumes are automatically encrypted
+
+
 
 :point_up_2: [back](#contents)
 
