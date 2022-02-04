@@ -548,6 +548,24 @@ Chef: automate **stack** configuration for production, development and etc. A st
 <img src=https://miro.medium.com/max/1031/1*Gig18TiVgWdxXeedc778UA.png>
 <p/>
 
+### NAT Instances and NAT Gateway
+
+* Network Address Translation can be used to enable instances in the private subnet to initiate outbond IPv4 traffic to the Internet
+* NAT Instance is provisioned in the public subnet
+* NAT Instance needs to have internet access
+* There is a special AMI available to create NAT Instances
+
+NAT Gateway is the managed instance.
+
+### Elastic IP Address
+
+Elastic IP is like a static IP for your instance. 
+
+<p align=center>
+<img src=./ip.JPG width=600>
+<p/>
+
+
 :point_up_2: [back](#contents)
 
 ## Practice Questions
