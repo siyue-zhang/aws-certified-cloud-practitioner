@@ -537,7 +537,16 @@ Chef: automate **stack** configuration for production, development and etc. A st
 * Can recreate an EBS Volume based on the snapshot
 * Snapshots that are created out of encrypted volumes are automatically encrypted
 
+### Elastic File System
 
+* Used for AWS Cloud services or on-premise resources
+* Can grow and shrink automatically based on demand
+* It supports Network File System
+* **Multiple EC2 Instances** can access the Amazon EFS file system at the same time
+
+<p align=center>
+<img src=https://miro.medium.com/max/1031/1*Gig18TiVgWdxXeedc778UA.png>
+<p/>
 
 :point_up_2: [back](#contents)
 
