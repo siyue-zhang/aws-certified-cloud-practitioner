@@ -49,7 +49,7 @@ This credential helps organizations identify and develop talent with critical kn
 
 * [Additional Services](#additional-services)
   * AWS OpsWorks
-  * 
+  * 6 Advantages of Cloud Computing
 
 * [Practice Questions](#practice-questions)
 
@@ -521,7 +521,16 @@ Network Access Control Lists
 
 Chef: automate **stack** configuration for production, development and etc. A stack can include OS, Web Server, SQL Server...
 
+### 6 Advantages of Cloud Computing
 
+1. Trade capital expense for variable expenses
+2. Benefits from massive economies of scale
+3. Stop guessing capacity (everything on-demand in cloud)
+4. Increase speed and agility (no need to wait for infrastructure)
+5. Stop spending money running and maintaining data centers
+6. Go global in minutes
+
+### 
 
 :point_up_2: [back](#contents)
 
