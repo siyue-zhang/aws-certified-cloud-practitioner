@@ -559,11 +559,24 @@ NAT Gateway is the managed instance.
 
 ### Elastic IP Address
 
-Elastic IP is like a static IP for your instance. 
+* Public IP address will change when Instance is rebooted.
+* Elastic IP is like a static IP for your instance. 
+* Create and associate
 
 <p align=center>
 <img src=./ip.JPG width=600>
 <p/>
+
+### AWS Storage Gateway
+
+* This service helps to connect an on-premises software appliance with cloud-based storage
+* This helps to easily scale your storage with the use of AWS cloud
+
+1. File Gateway - file interface into S3
+2. Volume Gateway - Internet Small Computer System Interface (iSCSI)
+3. Tape Gateway - a durable, cost-effective solution for archiving data onto AWS
+
+### 
 
 
 :point_up_2: [back](#contents)
