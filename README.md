@@ -588,7 +588,7 @@ NAT Gateway is the managed instance.
 * Physical devices
 * Transfer data between physical storage devices and the Amazon S3
 * Snowball Device is used for **transferring large amounts of data** (through Internet uploading too slow)
-* > 10TB data
+* Recommend more than 10TB data
 
 Features of Snowball Edge:
 * Durable local storage
