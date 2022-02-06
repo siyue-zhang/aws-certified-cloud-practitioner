@@ -50,6 +50,13 @@ This credential helps organizations identify and develop talent with critical kn
 * [Additional Services](#additional-services)
   * AWS OpsWorks
   * 6 Advantages of Cloud Computing
+  * EBS Snapshots
+  * Elastic File System
+  * NAT Instances and NAT Gateway
+  * Elastic IP Address
+  * AWS Storage Gateway
+  * AWS Snowball Device
+  * Amazon GuardDuty
 
 * [Practice Questions](#practice-questions)
 
@@ -576,7 +583,30 @@ NAT Gateway is the managed instance.
 2. Volume Gateway - Internet Small Computer System Interface (iSCSI)
 3. Tape Gateway - a durable, cost-effective solution for archiving data onto AWS
 
-### 
+### AWS Snowball Device
+
+* Physical devices
+* Transfer data between physical storage devices and the Amazon S3
+* Snowball Device is used for **transferring large amounts of data** (through Internet uploading too slow)
+* > 10TB data
+
+Features of Snowball Edge:
+* Durable local storage
+* Local compute with AWS Lambda
+* Can use it in a cluster of devices
+
+AWS Snowball process
+1. You create a job in AWS Snow Family Mnagement Console
+2. Snowball device is sent to the customer
+3. Then transfer the data onto the device
+4. Then ship the container back to AWS
+5. AWS will transfer the data onto Amazon S3
+
+### Amazon GuardDuty
+
+* This is a cloud service that monitors and analyses processes from data sources (VPC Flow logs, CloudTrail event logs, DNS logs...)
+* It uses algorithms to determine threats based on the analysed data (e.g. it can help detect compromised EC2 Instances)
+
 
 
 :point_up_2: [back](#contents)
