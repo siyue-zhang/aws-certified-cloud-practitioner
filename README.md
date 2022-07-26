@@ -5,6 +5,8 @@ Learning Notes for [AWS Certified Cloud Practitioner](https://aws.amazon.com/cer
 
 This credential helps organizations identify and develop talent with critical knowledge related to implementing cloud initiatives. Earning AWS Certified Cloud Practitioner validates cloud fluency and foundational AWS knowledge.
 
+**Internet | Web | Apps | DBs**
+
 ## Contents
 
 * [Cloud Concepts](#cloud-concepts)
