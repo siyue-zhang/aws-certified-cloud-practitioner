@@ -212,7 +212,7 @@ Object is not encrypted in server by default.
 
 ### Elastic Compute Cloud (EC2)
 
-<img src=https://camel.apache.org/camel-kamelets/0.5.x/_images/kamelets/aws-ec2-sink.svg width=60/>
+<img src=https://www.serverwatch.com/wp-content/uploads/2022/02/AWS-rc2.png width=60/>
 
 * Ability to create a virtual server on the cloud
 * On-demand option
