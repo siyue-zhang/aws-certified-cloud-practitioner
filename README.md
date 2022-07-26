@@ -321,6 +321,8 @@ Can be used for A/B Testing.
 
 CloudWatch creates alarm -> Autoscale based on alarm
 
+<img src=https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2017/04/18/CDBG-topology.png width=400/>
+
 ### Cloudfront
 
 <img src=https://cdn.worldvectorlogo.com/logos/aws-cloudfront.svg
