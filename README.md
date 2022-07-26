@@ -231,6 +231,7 @@ On-demand pricing
 Spot pricing
 * You can run workloads on EC2 instances and also have up to 90% savings on costs
 * The instances are available based on spare capacity available in AWS
+* 6-hour notice for interruption
 * If AWS runs out of capacity the compute capacity will be taken away
 * Good to choose Spot Instances if your workloads can be interrupted
 
@@ -282,6 +283,7 @@ Scheme:
 
 <img src=https://www.testpreptraining.com/blog/wp-content/uploads/2020/03/What-is-Amazon-Route-53_-1.png width=400/>
 
+* Managed DNS Web service
 * Register domain names
 * Route traffic to resources hosted in AWS
 * Check the health of your resources
@@ -289,6 +291,9 @@ Scheme:
 1. Create a hosted zone
 2. Register the Nameservers in the domain registrar
 3. Create a resource record in the hosted zone
+
+<img src=https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdfecb48f-842b-4147-b0c1-7a4615774c91_479x541.png width=500/>
+
 
 Routing Policies
 
@@ -356,6 +361,7 @@ RDS will be deployed in an EC2 instance, but EC2 is managed by AWS.
 * JSON data format
 * Simple Primary Key - Partition Key
 * Composite Key - Partition Key and Sort Key, if same partition
+* Very fast operation
 
 * Charged by read and write throughput
 * Represented as Capacity Units, 1 RCU - one strongly consistent read request, for an item up to 4KB
@@ -562,7 +568,9 @@ Chef: automate **stack** configuration for production, development and etc. A st
 * NAT Instance needs to have internet access
 * There is a special AMI available to create NAT Instances
 
-NAT Gateway is the managed instance.
+**Internet Gateway**: a bidirectional channel with public network
+
+NAT Gateway is the managed instance.It's a unidirectional channel to send out data from private network to public network.
 
 ### Elastic IP Address
 
