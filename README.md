@@ -38,6 +38,7 @@ This credential helps organizations identify and develop talent with critical kn
   * Simple Queue Service
   * Simple Notification Service
   * Cloudformation
+  * Cognito
 
 * [Security and Monitoring](#security-and-monitoring)
   * Shared Responsibility Model
@@ -286,14 +287,13 @@ Scheme:
 * Managed DNS Web service
 * Register domain names
 * Route traffic to resources hosted in AWS
-* Check the health of your resources
+* Can be used to check the health of your resources, e.g., check load balancer
 
 1. Create a hosted zone
 2. Register the Nameservers in the domain registrar
 3. Create a resource record in the hosted zone
 
-<img src=https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdfecb48f-842b-4147-b0c1-7a4615774c91_479x541.png width=500/>
-
+<img src=https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdfecb48f-842b-4147-b0c1-7a4615774c91_479x541.png width=400/>
 
 Routing Policies
 
@@ -302,6 +302,8 @@ Routing Policies
 * Geolocation routing policy - route traffic based on the location of users
 * Weighted routing policy - route traffic to different resources based on a weightage
 * Latency routing policy - route traffic to the region that provides the lowest latency
+
+Can be used for A/B Testing.
 
 ### Autoscaling
 
@@ -412,6 +414,10 @@ Template --> Cloudformation --> Stack
 
 * Template in JSON or YAML format
 
+### Cognito
+
+Web authentication service (e.g., using Facebook account for app login)
+
 ### Amazon Redshift
 
 * Data warehousing service
@@ -496,7 +502,7 @@ Access type:
 ### CloudTrail
 
 * Service used from a governance and compliance perspective
-* All actions taken in AWS account are recorded by Cloudtrail
+* All actions taken in AWS account are recorded by Cloudtrail (e.g., login logs)
 * Events get retained for 90 days, longer store needs to be set up
 * CloudTrail sends events to an S3 bucket
 
